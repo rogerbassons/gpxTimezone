@@ -68,7 +68,6 @@ class window:
         self.fileEntryText.set(self.master.filename)
 
     def changeTimezone(self):
-        print(self.fileEntryText.get())
         shiftTimeGPX(self.fileEntryText.get(), int(self.shiftEntryText.get()))
         self.master.destroy()
         
