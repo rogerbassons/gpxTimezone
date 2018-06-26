@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 import dateutil.parser
 from datetime import timedelta
